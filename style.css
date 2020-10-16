@@ -17,6 +17,10 @@
    
 }
 
+.ads_title{
+    text-align: center;
+}
+
 #ads .card-notify-badge {
         position: absolute;
         left: -10px;
