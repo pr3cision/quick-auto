@@ -16,8 +16,12 @@
       crossorigin="anonymous"
     />
 
+    <!-- Liens FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    
+
     <!-- Css maison -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
 
     <title>Hello, world!</title>
   </head>
@@ -230,6 +234,56 @@
         </div>
       </div>
     </section>
+
+    <!-- Section Footer -->
+    <footer class="footer">
+      <div class="footer-left col-md-4 col-sm-6">
+        <div class="about">
+          <h3>Besoin d'aide ? demandez nous</h3>
+          <form action="">
+            <label for="fname">Nom</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Votre nom">
+            <br>
+            <label for="email">Adresse couriel</label>
+            <br>
+            <input type="email" id="email" name="name" placeholder="Votre Email">
+            <br>
+            <label for="question-box">Subject</label>
+            <br>
+            <textarea id="question-box" name="question-box" placeholder="Votre question" style="height:200px"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        
+      </div>
+      <div class="footer-center col-md-4 col-sm-6">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span> 10 Rue Monchamps</span> Saint-Constant, Qc</p>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p> (450) 456 789 0123</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="#"> info@quickauto.com</a></p>
+        </div>
+        <div class="icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-google-plus"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-right col-md-4 col-sm-6">
+        <img id="footer-logo" src="/img/HatchfulExport-All/logo_transparent.png" alt="">
+        
+      </div>
+    </footer>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
     <script
