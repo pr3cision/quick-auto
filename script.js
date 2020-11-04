@@ -1,4 +1,7 @@
+// @ts-ignore
+
 window.onload = __onPageLoad();
+
 
 function __onPageLoad() {
     _insertNavBar();
@@ -13,11 +16,8 @@ function _insertNavBar(){
 
 function _insertFooter(){
     const myFooter = document.getElementById('myFooter');
-
-    const insertFooterHtml = contenuFooter.innerHtml;
-
-    let contenuFooter = '<h1> allo ?? </h1>';
-
-    insertFooterHtml.innerHtml = contenuFooter;
-    console.log(myFooter);
+    const myFooterTemplate = document.getElementById('myFooterTemplate')
+    
+    myFooter.innerHTML = ('<h1> balalald </h1> <p>nlsdksd<p>')
+    console.log(myFooterTemplate);
 }
